@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/addImage"
+        android:title="Select Image"
+        android:icon="@drawable/ic_action_image"/>
+
+    <item
+        android:id="@+id/cleartext"
+        android:title="Clear Text"
+        android:icon="@drawable/ic_action_cleartext"/>
+    <group>
+        <item
+            android:id="@+id/share"
+            android:title="Share"
+            android:icon="@drawable/ic_action_share"/>
+        <item
+            android:id="@+id/feedback"
+            android:title="Feedback"
+            android:icon="@drawable/ic_action_feedback"/>
+
+        <item
+            android:id="@+id/rate"
+            android:title="Rate us"
+            android:icon="@drawable/ic_action_rate"/>
+    </group>
+    <item
+        android:id="@+id/developer"
+        android:title="Developer"
+        android:icon="@drawable/ic_action_premium"/>
+
+
+</menu>

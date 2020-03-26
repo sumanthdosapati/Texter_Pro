@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_action_settings"/>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/ic_action_share"/>
+    <item
+        android:id="@+id/feedback"
+        android:title="Feedback"
+        android:icon="@drawable/ic_action_feedback"/>
+
+    <item
+        android:id="@+id/rate"
+        android:title="Rate us"
+        android:icon="@drawable/ic_action_rate"/>
+
+    <group>
+        <item
+            android:id="@+id/help"
+            android:title="Help"
+            android:icon="@drawable/ic_action_help"/>
+    </group>
+
+
+
+</menu>
